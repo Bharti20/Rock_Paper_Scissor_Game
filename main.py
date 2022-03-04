@@ -4,21 +4,21 @@ userChoice = input('Enter your choice:  rock, paper, scissor ')
 computerChoice = random.choice(['rock', 'paper', 'scissor'])
 print()
 if userChoice == computerChoice:
-    print('Game is draw!  because', 'computer chosen', computerChoice) 
+    print('DRAW!') 
 elif computerChoice == 'rock':
     if userChoice == 'paper':
-        print('You won! because', 'computer chosen', computerChoice)
+        print('YOU WON!  Paper Beats Rock')
     else:
-        print('Computer won! because', 'computer chosen', computerChoice) 
+        print('YOU LOSE!  Rock Beats Scissor') 
 elif computerChoice == 'paper':
     if userChoice == 'scissor':
-        print('You won!  because', 'computer chosen', computerChoice) 
+        print('YOU WON!  Scissor Beats paper') 
     else:
-        print('Computer won!  because', 'computer chosen', computerChoice) 
+        print('YOU LOSE!   Paper Beats Rock') 
 elif computerChoice == 'scissor':
     if userChoice == 'rock':
-        print('You won!  because', 'computer chosen', computerChoice) 
+        print('YOU WON!  Rock Beats Scissor') 
     else:
-        print('Computer won!  because', 'computer chosen', computerChoice) 
+        print('YOU LOSE! Scissor Beats Paper') 
 else:
     print('Please enter valid input') 
