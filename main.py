@@ -1,1 +1,1 @@
-print('Welcome to Rock, Paper and Scisser Game')
+options =['rock', 'paper', 'secisser']
