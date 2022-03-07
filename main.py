@@ -11,14 +11,14 @@ while True:
         draw+=1
     elif computerChoice == 'rock':
         if userChoice == 'paper':
-            print('YOU WON!  Paper Beats Rock')
+            print('YOU WON!🏆  Paper Beats Rock')
             won+=1
         else:
             print('YOU LOSE!  Rock Beats Scissor')
             lost+=1
     elif computerChoice == 'paper':
         if userChoice == 'scissor':
-            print('YOU WON!  Scissor Beats paper')
+            print('YOU WON!🏆  Scissor Beats paper')
             won+=1
         else:
             print('YOU LOSE!   Paper Beats Rock')
@@ -34,9 +34,7 @@ while True:
         print('Please enter valid input')
     
     print()
-    userInput = input('For exit from game pres "exit" otherwise "Enter" once ')
-    if userInput == 'exit':
-        print('Won =', won,  'Lost =', lost,  'Draw =', draw)
-        break
+    print('Won =', won,  'Lost =', lost,  'Draw =', draw)
+    print()
 
 
